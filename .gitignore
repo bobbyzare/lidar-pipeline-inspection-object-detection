@@ -1,0 +1,30 @@
+# Data (large / not redistributable)
+data/
+*.las
+*.laz
+*.ply
+*.npy
+*.bin
+*.label
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.qmd
+src/dataset/
+
+# Model weights & presentation
+*.pth
+src/logs/
+*.pptx
+
+# Environments & caches
+lidar_env/
+.venv/
+venv/
+__pycache__/
+.ipynb_checkpoints/
+*.egg-info/
+build/
+
